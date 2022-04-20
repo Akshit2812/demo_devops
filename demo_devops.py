@@ -1,4 +1,5 @@
-a=3
-b=4
-c=a+b
-print(c)
+num = 24
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
