@@ -16,7 +16,6 @@ pipeline {
         stage('Test'){
             steps{
                 echo 'the job has been tested'
-                bat 'mvn'
             }
         }
     }
