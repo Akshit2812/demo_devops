@@ -5,7 +5,7 @@ pipeline {
         echo 'Building...'
         bat python demo_devops.py
             }
-    stage('sample2'){
+    stages ('sample2'){
         echo 'Using maven'
         bat mvn
     }
