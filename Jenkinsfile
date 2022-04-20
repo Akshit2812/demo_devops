@@ -1,11 +1,11 @@
 pipeline {
     agent any
 
-    stages ('sample1'){
+    stage ('sample1'){
         echo 'Building...'
         bat python demo_devops.py
             }
-    stages ('sample2'){
+    stage ('sample2'){
         echo 'Using maven'
         bat mvn
     }
