@@ -1,3 +1,3 @@
-print("pranav ratusaria")
-print("e19cse182")
-print("eb06")
+print("akshit")
+print("e19cse336")
+print("eb14")
